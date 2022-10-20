@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "backend for ashvfin-task",
+  "main": "server.js",
+  "author": "Shivam Shekhar",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "restart": "lite-server",
+    "lite-server": "run-lite-server"
+  },
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
